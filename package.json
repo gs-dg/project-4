@@ -30,7 +30,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "axios": "^0.21.0",
     "babel": "^6.23.0",
     "bootstrap": "^4.5.3",
     "bulma": "^0.9.1",
@@ -40,6 +39,7 @@
     "react-dom": "^16.13.1",
     "react-player": "^2.7.0",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "axios": "^0.28.0"
   }
 }
