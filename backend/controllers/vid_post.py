@@ -146,6 +146,9 @@ def update_comment(id):
 
   existing_comment = Comment.query.get(id)
 
+  if not existing_comment:
+    return { 'message': 'Comment not available' }, 404
+
   try:
     comment = comment_schema.load(
       request.get_json(),
